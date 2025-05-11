@@ -94,7 +94,7 @@ export default class MyWalletDetailsScreen extends React.Component {
 
 
   openLink = (url) => {
-    url = "https://CHANGEME/tx/" + url;
+    url = "https://explorer1.aegisum.com/tx" + url;
     Linking.canOpenURL(url).then(supported => {
 
       if (supported) {
