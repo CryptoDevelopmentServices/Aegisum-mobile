@@ -1,3 +1,9 @@
 /android/.gradle
 node_modules
 .vscode/settings.json
+/.idea
+/android/app/build
+/android/build/kotlin/sessions
+android/local.properties
+android/java_pid17832.hprof
+android/app/debug.keystore
